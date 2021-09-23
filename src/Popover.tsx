@@ -8,7 +8,6 @@ import {
   POPOVER_FONT_COLOR,
   POPOVER_FONT_SIZE,
   POPOVER_PADDING,
-  POPOVER_WIDTH,
 } from './style-guide';
 
 export type PopoverProps = {
