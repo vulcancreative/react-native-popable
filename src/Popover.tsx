@@ -145,8 +145,6 @@ const Popover = React.forwardRef<View, PopoverProps>(function Popover(
 
 const styles = StyleSheet.create({
   container: {
-    width: POPOVER_WIDTH,
-    overflow: 'hidden',
   },
   containerHorizontal: {
     flexDirection: 'row',
@@ -156,7 +154,6 @@ const styles = StyleSheet.create({
     zIndex: 1,
     backgroundColor: POPOVER_BACKGROUND_COLOR,
     borderRadius: BORDER_RADIUS * 2,
-    overflow: 'hidden',
   },
   contentTextOnly: {
     padding: POPOVER_PADDING,
